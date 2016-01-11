@@ -34,6 +34,8 @@ public class URLIOUtils {
 			
 			}catch(Exception ex){
 				ex.printStackTrace();
+			}finally{
+				System.out.println("we are here.");
 			}
 	}
 	
