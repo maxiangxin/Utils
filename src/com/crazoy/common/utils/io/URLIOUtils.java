@@ -36,4 +36,9 @@ public class URLIOUtils {
 				ex.printStackTrace();
 			}
 	}
+	
+	public void writingToConsole(String s){
+		
+		System.out.println(s);
+	}
 }
